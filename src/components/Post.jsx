@@ -30,10 +30,20 @@ export function Post(){
             <a href=''>#nlw</a> {' '}
             <a href=''> #rocketseat</a>
           </p>
-          
-
       </div>
 
+
+      <form className={styles.commentForm}>
+        <strong>Feedback</strong>
+
+        <textarea 
+        placeholder="Leave your comment"
+        />
+        <footer>
+           <button type="submit">Comment</button>
+        </footer>
+        
+      </form>
     </article>
   )
 }
